@@ -2,13 +2,15 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 import ItemDetail from './ItemDetail'
+import ShoppingList from './ShoppingList'
 import itemsJson from "./_data/items.json";
 
 class Landing extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      itemData: itemsJson
+      itemData: itemsJson,
+      itemsInList: [{"itemName": "Tomato"}]
     }
   }
   render() {
@@ -22,7 +24,11 @@ class Landing extends React.Component {
       <ul>
         {topItems}
       </ul>
+      <ShoppingList
+      list={this.state.itemsInList}
+      />
     </div>
+    
   );
   }
 }
