@@ -1,0 +1,18 @@
+[
+    {
+        "itemName": "Tomato",
+        "image": "/images/tomato.png",
+        "price": {
+            "perUnit": "1.29",
+            "amount": "2.94"
+        }
+    },
+    {
+        "itemName": "Carrots",
+        "image": "/images/carrots.png",
+        "price": {
+            "perUnit": "3.15",
+            "amount": "2.50"
+        }
+    }
+]

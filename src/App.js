@@ -1,26 +1,50 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
+import ItemDetail from './ItemDetail'
+import itemsJson from "./_data/items.json";
 
-function App() {
+class Landing extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      itemData: itemsJson
+    }
+  }
+  render() {
+    const topItems = this.state.itemData
+      .map((item, idx) =>
+        <li key={idx}><Link to={`item/${item.itemName}`}>{item.itemName}</Link></li>
+      );
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <ul>
+        {topItems}
+      </ul>
+    </div>
+  );
+  }
+}
+
+function NotFound() {
+  return <h1>404</h1>
+}
+
+function TheRouter() {
+  return (
+    <div>
+      <Router>
+        <Link to="/">Home</Link>
+
+        <Switch>
+          <Route exact path="/" component={Landing} />
+          <Route path="/item/:name" component={ItemDetail} />
+          <Route component={NotFound} />
+        </Switch>
+      </Router>
     </div>
   );
 }
 
-export default App;
+export default TheRouter;
