@@ -1,14 +1,31 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
+import { BrowserRouter as Link } from 'react-router-dom';
+import itemsJson from "./_data/items.json";
 
-function itemDetail() {
-  return (
-    <div className="Landing">
-        Details!
-    </div>
-  );
+class ItemDetail extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            itemData: itemsJson
+        }
+    }
+    render() { 
+        const item = this.state.itemData.find(itemArray=> {
+            return itemArray.itemName === this.props.match.params.name
+        })
+        return (
+            <div className="details">
+              {item.name}
+              {item.image}
+          </div>
+        );
+    }
+
 }
 
 
-export default itemDetail;
+
+
+
+export default ItemDetail;
