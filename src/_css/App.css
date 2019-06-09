@@ -40,6 +40,7 @@ ul.deck {
 li.card {
   background: white;
   border: 3px lightgray solid;
+  border-radius: 10px;
   transition: border-color 0.8s ease;
   padding: 7px;
   width: 200px;
@@ -62,3 +63,56 @@ li.card a, li.card a:visited, li.card a:hover, li.card a:focus, li.card a:active
   color: #825e10;
 }
 
+.details {
+  font-family: sans-serif;
+  background: white;
+  border: 3px lightgray solid;
+  border-radius: 10px;
+  font-size: 1.5em;
+  color: #525048;
+  padding: 7px;
+  margin: 7px;
+  max-width: 600px;
+}
+
+.details img {
+  width: 100%;
+  object-fit: contain; 
+  max-height: 300px;
+  display: block;
+}
+
+.details .h1 {
+  font-family: 'umbasoft-altbold';
+  font-size: 1.5em;
+}
+
+.details .h2 { 
+  font-size: .8em;
+}
+.details .storeName {
+  color: #E41720;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.details .store {
+  margin: 20px 0;
+}
+
+.details table {
+  border-collapse: collapse;
+  width: 100%;
+  height: 100%;
+}
+
+.details th {
+  font-size: .7em;
+  border-bottom: 1px solid black;
+  text-align: left;
+}
+
+.details td, .details th{
+  padding: 5px;
+  margin: 5px;
+}
