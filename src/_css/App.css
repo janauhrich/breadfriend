@@ -1,0 +1,12 @@
+body {
+  background: #fbf8ed;
+  display: flex;
+} 
+
+#root {
+ border: 3px solid #525048;
+ border-radius: 10px;
+ flex-grow: 1;
+ margin: 20px;
+ padding: 20px;
+}

@@ -1,16 +1,17 @@
 import React from 'react';
-import './App.css';
+import './_css/App.css';
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
-import ItemDetail from './ItemDetail'
-import ShoppingList from './ShoppingList'
 import itemsJson from "./_data/items.json";
+import ItemDetail from './_components/ItemDetail'
+import ShoppingList from './_components/ShoppingList'
+
 
 class Landing extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       itemData: itemsJson,
-      itemsInList: [{"itemName": "Tomato"}]
+      itemsInList: []
     }
   }
   render() {
@@ -20,7 +21,7 @@ class Landing extends React.Component {
       );
 
   return (
-    <div>
+    <div className="landing">
       <ul>
         {topItems}
       </ul>
@@ -28,7 +29,6 @@ class Landing extends React.Component {
       list={this.state.itemsInList}
       />
     </div>
-    
   );
   }
 }
@@ -41,8 +41,7 @@ function TheRouter() {
   return (
     <div>
       <Router>
-        <Link to="/">Home</Link>
-
+        <Link to="/">BreadFriend</Link>
         <Switch>
           <Route exact path="/" component={Landing} />
           <Route path="/item/:name" component={ItemDetail} />

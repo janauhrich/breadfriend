@@ -1,7 +1,6 @@
 import React from 'react';
-import './App.css';
 import { BrowserRouter as Link } from 'react-router-dom';
-import itemsJson from "./_data/items.json";
+import itemsJson from "../_data/items.json";
 
 class ItemDetail extends React.Component {
     constructor(props) {

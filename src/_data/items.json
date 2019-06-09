@@ -2,17 +2,49 @@
     {
         "itemName": "Tomato",
         "image": "/images/tomato.png",
-        "price": {
-            "perUnit": "1.29",
-            "amount": "2.94"
+        "prices": {
+            "safeway": {
+                "storeName": "Safeway",
+                "perPound": "1.99",
+                "Unit": "2.94",
+                "Quantity": 1
+            },
+            "traderJoes": {
+                "storeName": "Trader Joes",
+                "perPound": "1.49",
+                "Unit": "2.44",
+                "Quantity": 1
+            },           
+            "costco": {
+                "storeName": "Costco Wholesale",
+                "perPound": "1.49",
+                "Unit": "7.63",
+                "Quantity": "4 lbs"
+            }            
         }
     },
     {
         "itemName": "Carrots",
         "image": "/images/carrots.png",
-        "price": {
-            "perUnit": "3.15",
-            "amount": "2.50"
+        "prices": {
+            "safeway": {
+                "storeName": "Safeway",
+                "perPound": "1.29",
+                "Unit": "2.94",
+                "Quantity": 1
+            },
+            "traderJoes": {
+                "storeName": "Trader Joes",
+                "perPound": "1.49",
+                "Unit": "2.44",
+                "Quantity": 1
+            },           
+            "costco": {
+                "storeName": "Costco Wholesale",
+                "perPound": "1.49",
+                "Unit": "2.44",
+                "Quantity": 1
+            }            
         }
     }
 ]

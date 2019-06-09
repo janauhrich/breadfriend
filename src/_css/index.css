@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'umbasoft-altbold';
+  src: url('/_fonts/umbasoft-altbold-webfont.woff2') format('woff2'),
+       url('/_fonts/umbasoft-altbold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  margin: 0;
+  font-family: umbasoft-altbold, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
