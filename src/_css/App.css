@@ -5,8 +5,60 @@ body {
 
 #root {
  border: 3px solid #525048;
+ background-color: #FBFBF9;
  border-radius: 10px;
  flex-grow: 1;
  margin: 20px;
  padding: 20px;
 }
+
+a.breadfriend, a.breadfriend:visited, a.breadfriend:focus, a.breadfriend:hover, a.breadfriend:active {
+  font-size: 2em;
+  text-decoration: none;
+  color: #825e10;
+}
+
+a.breadfriend img {
+  width: 50px;
+  padding-right: 5px;
+}
+
+li  {
+ list-style-type: none;
+
+}
+
+ul.deck {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+li.card {
+  background: white;
+  border: 3px lightgray solid;
+  transition: border-color 0.8s ease;
+  padding: 7px;
+  width: 200px;
+  margin: 7px;
+  text-align: center;
+}
+
+li.card:hover {
+  border: 3px #ca8b31 solid;
+}
+
+li.card img {
+  width: 200px;
+  object-fit: contain;
+}
+
+li.card a, li.card a:visited, li.card a:hover, li.card a:focus, li.card a:active {
+  font-size: 1.5em;
+  text-decoration: none;
+  color: #825e10;
+}
+

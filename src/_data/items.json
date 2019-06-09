@@ -1,7 +1,7 @@
 [
     {
-        "itemName": "Tomato",
-        "image": "/images/tomato.png",
+        "itemName": "Tomatoes",
+        "image": "tomato.png",
         "prices": {
             "safeway": {
                 "storeName": "Safeway",
@@ -25,7 +25,7 @@
     },
     {
         "itemName": "Carrots",
-        "image": "/images/carrots.png",
+        "image": "carrot.png",
         "prices": {
             "safeway": {
                 "storeName": "Safeway",
