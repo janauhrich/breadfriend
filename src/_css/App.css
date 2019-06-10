@@ -25,7 +25,6 @@ a.breadfriend img {
 
 li  {
  list-style-type: none;
-
 }
 
 ul.deck {
@@ -125,6 +124,7 @@ li.card a, li.card a:visited, li.card a:hover, li.card a:focus, li.card a:active
   border-radius: 50%;
   display: inline-block;
   position: relative;
+  margin-left: 5px;
 }
 
 .details .downArrow {
