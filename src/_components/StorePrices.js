@@ -16,13 +16,25 @@ class StorePrices extends React.Component {
           </thead>
           <tbody>
             <tr>
-              <td>${this.props.perPound}</td>
+              <td>
+                ${this.props.perPound}
+                <span
+                  className={`${
+                    this.props.lowest === true ? "lowest" : "hide"
+                  }`}
+                >
+                  <span aria-hidden="true" className="downArrow">
+                  &darr;
+                </span>
+                                
+                  <span className="offscreen">Lowest Price</span>
+                </span>
+              </td>
               <td>${this.props.unit}</td>
               <td>{this.props.quantity}</td>
             </tr>
           </tbody>
-            </table>
-            
+        </table>
       </div>
     );
   }

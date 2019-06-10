@@ -115,4 +115,27 @@ li.card a, li.card a:visited, li.card a:hover, li.card a:focus, li.card a:active
 .details td, .details th{
   padding: 5px;
   margin: 5px;
+  
+}
+
+.details .lowest {
+  width: 15px;
+  height: 15px;
+  background: blue;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+}
+
+.details .downArrow {
+  color: white;
+  font-size: .5em;
+  position: relative;
+  top: -60%;
+  left: 20%;
+  font-weight: bold;
+}
+
+.details .hide {
+  display:none;
 }

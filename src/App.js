@@ -6,8 +6,6 @@ import ItemDetail from './_components/ItemDetail';
 import ShoppingList from './_components/ShoppingList';
 import logo from './_img/breadfriend-logo.svg';
 
-
-
 class Landing extends React.Component {
   constructor(props) {
     super(props);
@@ -20,14 +18,10 @@ class Landing extends React.Component {
     const topItems = this.state.itemData
       .map((item, idx) =>
         <li className="card" key={idx}>
-          <Link to={`item/${item.itemName}`}>
-              
+          <Link to={`item/${item.itemName}`}>   
             <img src={require(`./_img/${item.image}`)} alt=""></img>
-
             {item.itemName}
-
-          </Link>
-              
+          </Link>  
         </li>
       );
 

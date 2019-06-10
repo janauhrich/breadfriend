@@ -5,9 +5,9 @@
         "prices": {
             "safeway": {
                 "storeName": "Safeway",
-                "perPound": "1.99",
-                "Unit": "2.94",
-                "Quantity": 1
+                "perPound": "1.69",
+                "unit": "2.44",
+                "quantity": 1
             },
             "traderJoes": {
                 "storeName": "Trader Joes",
@@ -17,7 +17,7 @@
             },           
             "costco": {
                 "storeName": "Costco Wholesale",
-                "perPound": "1.49",
+                "perPound": "1.29",
                 "unit": "7.63",
                 "quantity": "4 lbs"
             }            
