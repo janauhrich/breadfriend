@@ -5,46 +5,214 @@
         "prices": {
             "safeway": {
                 "storeName": "Safeway",
-                "perPound": "1.69",
-                "unit": "2.44",
-                "quantity": 1
+                "perPound": "2.29",
+                "unit": "2.29",
+                "quantity": "1 lb"
             },
             "traderJoes": {
                 "storeName": "Trader Joes",
-                "perPound": "1.49",
-                "unit": "2.44",
-                "quantity": 1
+                "perPound": "2.51",
+                "unit": "2.51",
+                "quantity": "1 lb"
             },           
             "costco": {
                 "storeName": "Costco Wholesale",
-                "perPound": "1.29",
-                "unit": "7.63",
+                "perPound": "1.92",
+                "unit": "7.39",
                 "quantity": "4 lbs"
             }            
         }
     },
     {
-        "itemName": "Carrots",
+        "itemName": "Organic Carrots",
         "image": "carrot.png",
         "prices": {
             "safeway": {
                 "storeName": "Safeway",
-                "perPound": "1.29",
-                "unit": "2.94",
-                "quantity": 1
+                "perPound": "1.44",
+                "unit": "2.89",
+                "quantity": "2 lbs"
             },
             "traderJoes": {
                 "storeName": "Trader Joes",
                 "perPound": "1.49",
-                "unit": "2.44",
-                "quantity": 1
+                "unit": "2.98",
+                "quantity": "2"
             },           
             "costco": {
                 "storeName": "Costco Wholesale",
-                "perPound": "1.49",
-                "unit": "2.44",
-                "quantity": 1
+                "perPound": "1.28",
+                "unit": "6.09",
+                "quantity": "5 lbs"
             }            
         }
-    }
+    },
+    {
+        "itemName": "Organic Cauliflower",
+        "image": "cauliflower.png",
+        "prices": {
+            "safeway": {
+                "storeName": "Safeway",
+                "perPound": "2.89",
+                "unit": "4.58",
+                "quantity": "1.58 lbs"
+            },
+            "traderJoes": {
+                "storeName": "Trader Joes",
+                "perPound": "2.15",
+                "unit": "3.23",
+                "quantity": "1.5"
+            },           
+            "costco": {
+                "storeName": "Costco Wholesale",
+                "perPound": "2.03",
+                "unit": "6.09",
+                "quantity": "3 lbs"
+            }            
+        }
+    },
+    {
+        "itemName": "Organic Super Sweet Corn",
+        "image": "corn.png",
+        "prices": {
+            "safeway": {
+                "storeName": "Safeway",
+                "perPound": "2.02 each",
+                "unit": "4.58",
+                "quantity": "4"
+            },
+            "traderJoes": {
+                "storeName": "Trader Joes",
+                "perPound": "1.89 each",
+                "unit": "1.89",
+                "quantity": "1"
+            },           
+            "costco": {
+                "storeName": "Costco Wholesale",
+                "perPound": "1.22 each",
+                "unit": "9.79",
+                "quantity": "8"
+            }            
+        }
+    },
+    {
+        "itemName": "Organic Cucumber",
+        "image": "cucumber.png",
+        "prices": {
+            "safeway": {
+                "storeName": "Safeway",
+                "perPound": "1.79 each",
+                "unit": "1.79",
+                "quantity": "1"
+            },
+            "traderJoes": {
+                "storeName": "Trader Joes",
+                "perPound": "1.79 each",
+                "unit": "1.79",
+                "quantity": "1"
+            },           
+            "costco": {
+                "storeName": "Costco Wholesale",
+                "perPound": "2.30 each",
+                "unit": "6.89",
+                "quantity": "3"
+            }            
+        }
+    },   
+    {
+        "itemName": "Eggplant",
+        "image": "eggplant.png",
+        "prices": {
+            "safeway": {
+                "storeName": "Safeway",
+                "perPound": "2.29 each",
+                "unit": "2.29",
+                "quantity": "1"
+            },
+            "traderJoes": {
+                "storeName": "Trader Joes",
+                "perPound": "2.40 each",
+                "unit": "2.40",
+                "quantity": "1"
+            },           
+            "costco": {
+                "storeName": "Costco Wholesale",
+                "perPound": "n/a",
+                "unit": "n/a",
+                "quantity": "n/a"
+            }            
+        }
+    },
+    {
+        "itemName": "Garlic",
+        "image": "garlic.png",
+        "prices": {
+            "safeway": {
+                "storeName": "Safeway",
+                "perPound": "3.10",
+                "unit": ".99",
+                "quantity": "1"
+            },
+            "traderJoes": {
+                "storeName": "Trader Joes",
+                "perPound": "3.08",
+                "unit": ".99",
+                "quantity": "1"
+            },           
+            "costco": {
+                "storeName": "Costco Wholesale",
+                "perPound": "2.88",
+                "unit": "8.59",
+                "quantity": "3 lbs"
+            }            
+        }
+    },
+    {
+        "itemName": "Peppers",
+        "image": "green-peppers.png",
+        "prices": {
+            "safeway": {
+                "storeName": "Safeway",
+                "perPound": "1.93",
+                "unit": "5.79",
+                "quantity": "3"
+            },
+            "traderJoes": {
+                "storeName": "Trader Joes",
+                "perPound": "2.00",
+                "unit": "2.00",
+                "quantity": "1"
+            },           
+            "costco": {
+                "storeName": "Costco Wholesale",
+                "perPound": "1.43 each",
+                "unit": "8.59",
+                "quantity": "6"
+            }            
+        }
+    }, 
+    {
+        "itemName": "Sweet Onion",
+        "image": "onion.png",
+        "prices": {
+            "safeway": {
+                "storeName": "Safeway",
+                "perPound": "1.99",
+                "unit": ".48",
+                "quantity": "1"
+            },
+            "traderJoes": {
+                "storeName": "Trader Joes",
+                "perPound": "1.70",
+                "unit": ".51",
+                "quantity": "1"
+            },           
+            "costco": {
+                "storeName": "Costco Wholesale",
+                "perPound": ".96",
+                "unit": "10.39",
+                "quantity": "40"
+            }            
+        }
+    }   
 ]
