@@ -5,6 +5,7 @@ import itemsJson from "./_data/items.json";
 import ItemDetail from './_components/ItemDetail';
 import ShoppingList from './_components/ShoppingList';
 import logo from './_img/breadfriend-logo.svg';
+import { Helmet } from 'react-helmet';
 
 class Landing extends React.Component {
   constructor(props) {
@@ -33,6 +34,9 @@ class Landing extends React.Component {
       <ShoppingList
       list={this.state.itemsInList}
       />
+      <Helmet>
+          <title>BreadFriend - Home</title>
+        </Helmet>
     </div>
   );
   }

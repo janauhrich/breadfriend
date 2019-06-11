@@ -134,13 +134,7 @@
                 "perUnit": "2.40",
                 "price": "2.40",
                 "quantity": "1"
-            },           
-            "costco": {
-                "storeName": "Costco Wholesale",
-                "perUnit": "n/a",
-                "price": "n/a",
-                "quantity": "n/a"
-            }            
+            }         
         }
     },
     {

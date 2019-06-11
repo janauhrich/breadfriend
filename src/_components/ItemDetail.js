@@ -1,6 +1,7 @@
 import React from "react";
 import itemsJson from "../_data/items.json";
 import StorePrices from "./StorePrices";
+import { Helmet } from 'react-helmet';
 
 class ItemDetail extends React.Component {
   constructor(props) {
@@ -21,7 +22,7 @@ class ItemDetail extends React.Component {
     const pricesPerLb = stores.map(store =>
       item.prices[store].perUnit)
       //convert strings to numbers
-      .map(function(i) {
+      .map(function (i) {
         return parseFloat(i, 10);
       })
       //sort lowest to highest
@@ -29,38 +30,29 @@ class ItemDetail extends React.Component {
 
     const lowestPrice = pricesPerLb[0];
 
+    const availableStores = stores.map(store =>
+      <StorePrices
+        key={store}
+        storeName={item.prices[store].storeName}
+        perUnit={item.prices[store].perUnit}
+        price={item.prices[store].price}
+        quantity={item.prices[store].quantity}
+        lowest={item.prices[store].perUnit == lowestPrice ? true : false}       
+      />
+      )
+
     return (
       <div className="details">
         <img src={require(`../_img/${item.image}`)} alt="" />
 
         <h1 className="h1">{item.itemName}</h1>
-        {/* TODO: it would be cool if this were a map so it would display all the stores the json had data for*/}
-        <StorePrices
-          storeName={item.prices.safeway.storeName}
-          perUnit={item.prices.safeway.perUnit}
-          price={item.prices.safeway.price}
-          quantity={item.prices.safeway.quantity}
-          lowest={item.prices.safeway.perUnit == lowestPrice ? true : false}
-        />
-        <StorePrices
-          storeName={item.prices.costco.storeName}
-          perUnit={item.prices.costco.perUnit}
-          price={item.prices.costco.price}
-          quantity={item.prices.costco.quantity}
-          lowest={item.prices.costco.perUnit == lowestPrice ? true : false}
-        />
-        <StorePrices
-          storeName={item.prices.traderJoes.storeName}
-          perUnit={item.prices.traderJoes.perUnit}
-          price={item.prices.traderJoes.price}
-          quantity={item.prices.traderJoes.quantity}
-          lowest={
-            item.prices.traderJoes.perUnit == lowestPrice ? true : false
-          }
-        />
-        <a href="/" aria-label="bread friend home">
-          Back
+        {availableStores}
+        <a href="/" aria-label="back to bread friend home">
+          <span aria-hidden="true"> &laquo; </span>Back
         </a>
+        <Helmet>
+          <title>BreadFriend - {item.itemName}</title>
+        </Helmet>
       </div>
     );
   }

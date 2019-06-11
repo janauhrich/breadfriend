@@ -70,7 +70,7 @@ li.card a, li.card a:visited, li.card a:hover, li.card a:focus, li.card a:active
   font-size: 1.5em;
   color: #525048;
   padding: 7px;
-  margin: 7px;
+  margin: 10px auto;
   max-width: 600px;
 }
 
