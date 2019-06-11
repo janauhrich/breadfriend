@@ -18,7 +18,6 @@ class ItemDetail extends React.Component {
     const stores = Object.keys(item.prices)
 
     //figure out the lowest cost item
-
     const pricesPerLb = stores.map(store =>
       item.prices[store].perUnit)
       //convert strings to numbers
