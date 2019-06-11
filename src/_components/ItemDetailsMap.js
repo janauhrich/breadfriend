@@ -14,12 +14,13 @@ class ItemDetail extends React.Component {
       return itemArray.itemName === this.props.match.params.name;
     });
 
-    const stores = Object.keys(item.prices)
-
     //figure out the lowest cost item
 
-    const pricesPerLb = stores.map(store =>
-      item.prices[store].perUnit)
+    const pricesPerLb = [
+      item.prices.safeway.perUnit,
+      item.prices.costco.perUnit,
+      item.prices.traderJoes.perUnit
+    ]
       //convert strings to numbers
       .map(function(i) {
         return parseFloat(i, 10);

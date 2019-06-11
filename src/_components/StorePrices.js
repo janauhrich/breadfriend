@@ -9,15 +9,15 @@ class StorePrices extends React.Component {
           <caption className="offscreen">{this.props.storeName} Prices</caption>
           <thead>
             <tr>
-              <th scope="col">Price per lb</th>
-              <th scope="col">Unit Price</th>
+              <th scope="col">Price per unit</th>
+              <th scope="col">Price</th>
               <th scope="col">Quantity</th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <td>
-                ${this.props.perPound}
+                ${this.props.perUnit}
                 <span
                   className={`${
                     this.props.lowest === true ? "lowest" : "hide"
@@ -30,7 +30,7 @@ class StorePrices extends React.Component {
                   <span className="offscreen">Lowest Price</span>
                 </span>
               </td>
-              <td>${this.props.unit}</td>
+              <td>${this.props.price}</td>
               <td>{this.props.quantity}</td>
             </tr>
           </tbody>

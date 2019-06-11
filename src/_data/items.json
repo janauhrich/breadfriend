@@ -5,20 +5,20 @@
         "prices": {
             "safeway": {
                 "storeName": "Safeway",
-                "perPound": "2.29",
-                "unit": "2.29",
+                "perUnit": "2.29",
+                "price": "2.29",
                 "quantity": "1 lb"
             },
             "traderJoes": {
                 "storeName": "Trader Joes",
-                "perPound": "2.51",
-                "unit": "2.51",
+                "perUnit": "2.51",
+                "price": "2.51",
                 "quantity": "1 lb"
             },           
             "costco": {
                 "storeName": "Costco Wholesale",
-                "perPound": "1.92",
-                "unit": "7.39",
+                "perUnit": "1.92",
+                "price": "7.39",
                 "quantity": "4 lbs"
             }            
         }
@@ -29,20 +29,20 @@
         "prices": {
             "safeway": {
                 "storeName": "Safeway",
-                "perPound": "1.44",
-                "unit": "2.89",
+                "perUnit": "1.44",
+                "price": "2.89",
                 "quantity": "2 lbs"
             },
             "traderJoes": {
                 "storeName": "Trader Joes",
-                "perPound": "1.49",
-                "unit": "2.98",
-                "quantity": "2"
+                "perUnit": "1.49",
+                "price": "2.98",
+                "quantity": "2 lbs"
             },           
             "costco": {
                 "storeName": "Costco Wholesale",
-                "perPound": "1.28",
-                "unit": "6.09",
+                "perUnit": "1.28",
+                "price": "6.09",
                 "quantity": "5 lbs"
             }            
         }
@@ -53,20 +53,20 @@
         "prices": {
             "safeway": {
                 "storeName": "Safeway",
-                "perPound": "2.89",
-                "unit": "4.58",
+                "perUnit": "2.89",
+                "price": "4.58",
                 "quantity": "1.58 lbs"
             },
             "traderJoes": {
                 "storeName": "Trader Joes",
-                "perPound": "2.15",
-                "unit": "3.23",
+                "perUnit": "2.15",
+                "price": "3.23",
                 "quantity": "1.5"
             },           
             "costco": {
                 "storeName": "Costco Wholesale",
-                "perPound": "2.03",
-                "unit": "6.09",
+                "perUnit": "2.03",
+                "price": "6.09",
                 "quantity": "3 lbs"
             }            
         }
@@ -77,20 +77,20 @@
         "prices": {
             "safeway": {
                 "storeName": "Safeway",
-                "perPound": "2.02 each",
-                "unit": "4.58",
+                "perUnit": "2.02",
+                "price": "4.58",
                 "quantity": "4"
             },
             "traderJoes": {
                 "storeName": "Trader Joes",
-                "perPound": "1.89 each",
-                "unit": "1.89",
+                "perUnit": "1.89",
+                "price": "1.89",
                 "quantity": "1"
             },           
             "costco": {
                 "storeName": "Costco Wholesale",
-                "perPound": "1.22 each",
-                "unit": "9.79",
+                "perUnit": "1.22",
+                "price": "9.79",
                 "quantity": "8"
             }            
         }
@@ -101,20 +101,20 @@
         "prices": {
             "safeway": {
                 "storeName": "Safeway",
-                "perPound": "1.79 each",
-                "unit": "1.79",
+                "perUnit": "1.79",
+                "price": "1.79",
                 "quantity": "1"
             },
             "traderJoes": {
                 "storeName": "Trader Joes",
-                "perPound": "1.79 each",
-                "unit": "1.79",
+                "perUnit": "1.79",
+                "price": "1.79",
                 "quantity": "1"
             },           
             "costco": {
                 "storeName": "Costco Wholesale",
-                "perPound": "2.30 each",
-                "unit": "6.89",
+                "perUnit": "2.30",
+                "price": "6.89",
                 "quantity": "3"
             }            
         }
@@ -125,20 +125,20 @@
         "prices": {
             "safeway": {
                 "storeName": "Safeway",
-                "perPound": "2.29 each",
-                "unit": "2.29",
+                "perUnit": "2.29",
+                "price": "2.29",
                 "quantity": "1"
             },
             "traderJoes": {
                 "storeName": "Trader Joes",
-                "perPound": "2.40 each",
-                "unit": "2.40",
+                "perUnit": "2.40",
+                "price": "2.40",
                 "quantity": "1"
             },           
             "costco": {
                 "storeName": "Costco Wholesale",
-                "perPound": "n/a",
-                "unit": "n/a",
+                "perUnit": "n/a",
+                "price": "n/a",
                 "quantity": "n/a"
             }            
         }
@@ -149,20 +149,20 @@
         "prices": {
             "safeway": {
                 "storeName": "Safeway",
-                "perPound": "3.10",
-                "unit": ".99",
+                "perUnit": "3.10",
+                "price": ".99",
                 "quantity": "1"
             },
             "traderJoes": {
                 "storeName": "Trader Joes",
-                "perPound": "3.08",
-                "unit": ".99",
+                "perUnit": "3.08",
+                "price": ".99",
                 "quantity": "1"
             },           
             "costco": {
                 "storeName": "Costco Wholesale",
-                "perPound": "2.88",
-                "unit": "8.59",
+                "perUnit": "2.88",
+                "price": "8.59",
                 "quantity": "3 lbs"
             }            
         }
@@ -173,20 +173,20 @@
         "prices": {
             "safeway": {
                 "storeName": "Safeway",
-                "perPound": "1.93",
-                "unit": "5.79",
+                "perUnit": "1.93",
+                "price": "5.79",
                 "quantity": "3"
             },
             "traderJoes": {
                 "storeName": "Trader Joes",
-                "perPound": "2.00",
-                "unit": "2.00",
+                "perUnit": "2.00",
+                "price": "2.00",
                 "quantity": "1"
             },           
             "costco": {
                 "storeName": "Costco Wholesale",
-                "perPound": "1.43 each",
-                "unit": "8.59",
+                "perUnit": "1.43",
+                "price": "8.59",
                 "quantity": "6"
             }            
         }
@@ -197,20 +197,20 @@
         "prices": {
             "safeway": {
                 "storeName": "Safeway",
-                "perPound": "1.99",
-                "unit": ".48",
+                "perUnit": "1.99",
+                "price": ".48",
                 "quantity": "1"
             },
             "traderJoes": {
                 "storeName": "Trader Joes",
-                "perPound": "1.70",
-                "unit": ".51",
+                "perUnit": "1.70",
+                "price": ".51",
                 "quantity": "1"
             },           
             "costco": {
                 "storeName": "Costco Wholesale",
-                "perPound": ".96",
-                "unit": "10.39",
+                "perUnit": ".96",
+                "price": "10.39",
                 "quantity": "40"
             }            
         }
